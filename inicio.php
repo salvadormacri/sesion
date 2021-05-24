@@ -3,9 +3,9 @@
      Bienvenido<br>
      <?php
          $usuario = $_POST["usuario"];
-       $contraseña = $_POST ["contraseña"];
+       $contrasena = $_POST ["contrasena"];
 
-        if (($usuario == "SEPTIMO") & ($contraseña == "Murialdo12"))
+        if (($usuario == "SEPTIMO") & ($contrasena == "Murialdo12"))
        {
         echo "Has ingresado al sistema"; 
         }
